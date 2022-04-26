@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'form', component: FormComponent },
   { path: 'random', component: RandomComponent },
-  { path: 'platform', component: PlatformComponent }
+  { path: 'platform', component: PlatformComponent },
+  { path: '**', component: ContactComponent}
 
 ];
 
