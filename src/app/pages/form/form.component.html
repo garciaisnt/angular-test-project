@@ -1,0 +1,48 @@
+<div class="row">
+
+
+    <div class="col-md-9">
+
+
+        <div class="col-m6 offset-3">
+
+            <h3 class="h3">
+                {{ 'apply for a job' | uppercase}}
+            </h3>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="txtName" class="form-label">Full name:</label>
+                            <input type="text" class="form-control" id="txtName" name="txtName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="txtEmail" name="txtEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtMessage" class="form-label">Message</label>
+                            <textarea class="form-control" placeholder="Leave a message here" id="txtMessage" rows="5"
+                                name="txtMessage" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fileCV" class="form-label">Upload CV</label>
+                            <input class="form-control" type="file" id="fileCV" name="fileCV" required>
+                        </div>
+                        <hr>
+                        <button type="submit" class="btn btn-outline-primary uppercase">Send application</button>
+
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</div>

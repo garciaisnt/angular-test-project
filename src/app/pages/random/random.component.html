@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-6 offset-3">
+            <h3 class="h3">
+                Image Random
+            </h3>
+            <hr>
+
+            <form (ngSubmit)="loadImage()">
+                <div class="mb-3">
+                    <input type="submit" class="btn btn-outline-success" value="Click to load random img">
+                </div>
+            </form>
+
+            <div class="mt-4">
+
+            <img [src]="imgView.message" alt="" class="img-fluid">
+
+            </div>
+        </div>
+    </div>
+</div>
